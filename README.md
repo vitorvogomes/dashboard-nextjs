@@ -8,6 +8,7 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - Definir Versão do Node.Js
 ```sh
 nvm use 22
+echo "22" > .nvmrc 
 ```
 
 - Instalar pnpm mais rapido e eficiente
@@ -21,6 +22,16 @@ npm install -g pnpm (Global)
 pnpm approve-builds
 ```
 
+- Instalar Pacotes do projeto
+```sh
+pnpm i
+```
+
+- Iniciar derver de develop
+```sh
+pnpm dev
+```
+
 - Download das bibliotecas do React e NextJs
 ```sh
 pnpm install react@latest react-dom@latest next@latest
@@ -31,13 +42,3 @@ pnpm install react@latest react-dom@latest next@latest
 npx create-next-app@latest <project-name>
 ```
 * Utilizar tailwindCss para otimização
-
-- Instalar Pacotes do projeto
-```sh
-pnpm i
-```
-
-- Iniciar derver de develop
-```sh
-pnpm dev
-```
