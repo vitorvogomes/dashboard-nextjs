@@ -16,6 +16,11 @@ npm install pnpm
 npm install -g pnpm (Global)
 ```
 
+- Run to pick which dependencies should be allowed to run scripts.
+```sh
+pnpm approve-builds
+```
+
 - Download das bibliotecas do React e NextJs
 ```sh
 pnpm install react@latest react-dom@latest next@latest
