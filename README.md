@@ -4,7 +4,7 @@ This is the starter template for the Next.js App Router Course. It contains the 
 
 For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
 
-
+## Rodar Localmente
 - Definir Versão do Node.Js
 ```sh
 nvm use 22
@@ -27,18 +27,7 @@ pnpm approve-builds
 pnpm i
 ```
 
-- Iniciar derver de develop
+- Iniciar servidor local de desenvolvimento [https://localhost:3000]
 ```sh
-pnpm dev
+pnpm run dev
 ```
-
-- Download das bibliotecas do React e NextJs
-```sh
-pnpm install react@latest react-dom@latest next@latest
-```
-
-- Criar um novo projeto NextJs
-```sh
-npx create-next-app@latest <project-name>
-```
-* Utilizar tailwindCss para otimização
